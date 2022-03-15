@@ -10,7 +10,7 @@ const CardImage = ({ image}) => {
     return (
         <TouchableOpacity style={styles.cardImage}  onPress={()=>navigation.navigate('ImageScreen', {image})}>
             <Image source={{ uri:
-            image.src.small? image.src.small : "https://cdn.iconscout.com/icon/free/png-512/no-image-1771002-1505134.png"
+            image.src.portrait? image.src.portrait : "https://cdn.iconscout.com/icon/free/png-512/no-image-1771002-1505134.png"
             
                 }}
                 style={{ height: 180, width: '100%' }}

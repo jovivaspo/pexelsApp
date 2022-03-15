@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     color: 'grey',
     textAlign: 'right',
     width: "100%",
-    paddingTop: 35
+    paddingTop: 10
   },
   constainerSearch:{
     flex:1/5,
@@ -85,6 +85,7 @@ const styles = StyleSheet.create({
   },
     button:{
     backgroundColor:'#229783',
+    marginBottom:22
   }
 })
 
